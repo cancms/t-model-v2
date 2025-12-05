@@ -1,0 +1,43 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #003261,
+    ),
+    'success': (
+      'base': #21ba45,
+    ),
+    'warning': (
+      'base': #f2711c,
+    ),
+    'danger': (
+      'base': #db2828,
+    ),
+    'error': (
+      'base': #db2828,
+    ),
+    'info': (
+      'base': #42b8dd,
+    ),
+  ),
+  $button-padding-horizontal: (
+    'default': 80px,
+  ),
+  $header: (
+    'padding': 0,
+    'height': 50px,
+  )
+);
+
+$header-bg-color: #003261;
+$menu-bg-color: #356100;
+
+:root {
+  --el-aside-width: auto;
+  // com-table的 配置
+  // 每个工具宽度
+  --com-table-tool-width: 25px;
+  // 每个工具icon大小
+  --com-table-tool-icon-size: 14px;
+  // 每个工具item之间的间距
+  --com-table-tool-item-gap:10px;
+}
