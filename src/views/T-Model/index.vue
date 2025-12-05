@@ -234,12 +234,13 @@
 
 
 <script setup lang="ts">
-import createTShapeService from './js/t-model.js';
-import { ref, onMounted, onUnmounted, watch } from 'vue';
+// @ts-ignore
+import TCalculator from '@/views/t-model/js/t-model.js';
+import { ref, onMounted, onUnmounted } from 'vue';
 import * as echarts from 'echarts';
 
 
-const tCalculator = createTShapeService();
+const tCalculator = TCalculator();
 const chartRef = ref(null);
 let chartInstance: any = null;
 

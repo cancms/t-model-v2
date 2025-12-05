@@ -1390,6 +1390,7 @@ console.log(`
 
 // const tCalculator = TShapeCalculator();
 // tCalculator.clickToCalculate();
-export default function createTShapeService() {
-    return TShapeCalculator();
-}
+
+// const TCalculator = TShapeCalculator();
+// export default {TCalculator};
+export default TShapeCalculator;

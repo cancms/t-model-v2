@@ -1,9 +1,8 @@
 import { createWebHashHistory, createRouter } from 'vue-router';
-import { errorRouter, staticRouter } from './static';
+import { staticRouter } from './static';
 
 const routes = [
   ...staticRouter,
-  ...errorRouter,
 ];
 
 const router = createRouter({

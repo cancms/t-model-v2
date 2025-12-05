@@ -6,6 +6,9 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { "@/*": ["src/*"] }
+    "paths": { "@/*": ["src/*"] },
+
+    // 允许导入 JavaScript 文件
+    // "allowJs": true,
   }
 }
